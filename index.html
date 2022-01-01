@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Youtube Video Page Clone</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="shortcut icon" href="/images/icons8/favicon.ico" />
+    </head>
+    <body>
+        <header>
+            <div id="start">
+                <img src="images/icons8/icons8-menu.svg" alt="Menu Icon" />
+                <a
+                    href="https://www.youtube.com/"
+                    id="youtube-link"
+                    target="_blank"
+                >
+                    <img
+                        src="images/icons8/icons8-youtube.svg"
+                        class="youtube-icon"
+                        alt="YouTube Logo"
+                    />
+                    YouTube
+                </a>
+            </div>
+            <div id="center">
+                <div class="form-container">
+                    <form>
+                        <input type="text" placeholder="Search" />
+                        <button type="button">
+                            <img
+                                src="images/icons8/icons8-search.svg"
+                                alt="Search Icon"
+                            />
+                        </button>
+                    </form>
+                </div>
+                <div id="microphone">
+                    <img
+                        src="images/marterial_design_icons/microphone.svg"
+                        alt="voice search"
+                    />
+                </div>
+            </div>
+            <div id="end">
+                <img
+                    src="images/marterial_design_icons/video-plus.svg"
+                    alt="Create Video"
+                />
+                <img
+                    src="images/marterial_design_icons/apps.svg"
+                    alt="Youtube Apps"
+                />
+                <img
+                    src="images/marterial_design_icons/bell-outline.svg"
+                    alt="Notification Bell"
+                />
+                <div class="youtube-account">
+                    <button>ME</button>
+                </div>
+            </div>
+        </header>
+        <div class="container">
+            <div class="video-container">
+                <section>
+                    <div class="youtube-video">
+                        <iframe
+                            src="https://www.youtube-nocookie.com/embed/5qap5aO4i9A"
+                            title="YouTube video player"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen
+                        >
+                        </iframe>
+                    </div>
+                </section>
+                <section class="video-info">
+                    <div>
+                        <h1>lofi hip hop radio - beats to relax/study to</h1>
+                        <p>Started Streaming on Feb 22, 2020</p>
+                    </div>
+                    <div class="video-actions">
+                        <button>
+                            <img
+                                src="images/marterial_design_icons/thumb-up-outline.svg"
+                                alt="thumbs up"
+                                id="like"
+                            />
+                            <span>6.9M</span>
+                        </button>
+                        <button id="dislike">
+                            <img
+                                src="images/marterial_design_icons/thumb-down-outline.svg"
+                                alt="thumbs down"
+                                id="dislike"
+                            />
+                            <span>DISLIKE</span>
+                        </button>
+                        <button>
+                            <img
+                                src="images/marterial_design_icons/share-outline.svg"
+                                alt="share arrow"
+                                id="share"
+                            />
+                            <span>SHARE</span>
+                        </button>
+                        <button>
+                            <img
+                                src="images/marterial_design_icons/playlist-plus.svg"
+                                alt="playlist"
+                                id="save-video"
+                            />
+                            <span>SAVE</span>
+                        </button>
+                        <button>
+                            <img
+                                src="images/marterial_design_icons/flag-outline.svg"
+                                alt="report flag"
+                                id="repor-video"
+                            />
+                        </button>
+                    </div>
+                </section>
+                <section class="uploader-info">
+                    <div class="profile">
+                        <img
+                            src="https://yt3.ggpht.com/ytc/AKedOLRBxyT5Y9xKYWPmnShA_utGUvcJnxWaFmc0CtWTkg=s48-c-k-c0x00ffffff-no-rj"
+                            id="profile-picture"
+                            alt="Lofi Girl"
+                        />
+                        <div class="subscribers">
+                            <h6>Lofi Girl</h6>
+                            <p>9.2M subscribers</p>
+                        </div>
+                    </div>
+                    <div class="uploader-actions">
+                        <button id="join">JOIN</button>
+                        <button id="subscribe">SUBSCRIBE</button>
+                    </div>
+                </section>
+                <section class="description-section">
+                    <div>
+                        <p>
+                            🤗 Thank you for listening, I hope you will have a
+                            good time here
+                        </p>
+                        <div>
+                            <span>👕 | Lofi Girl merch →</span>
+                            <a
+                                href="https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqblMzQXhMcHpuMUlLTVpENFhNRDNZY0stMlZiUXxBQ3Jtc0ttZnlyVnhURi1oSkJXTVpXMHktYzdDX2JVSGE4Y3d4U01EeFJ1SjNPN3hPSWxvdV9uZ2dUUW8wUEFLbXU4M1pfeUdSMW9TUHA5bHlFbmpYUzhpN2NDRno2Z3NYWWRVTWdMN0JzOERleDVtaE4ybFhtVQ&q=https%3A%2F%2Fbit.ly%2FIofigirl-shop"
+                                target="_blank"
+                            >
+                                https://bit.ly/lofigirl-shop
+                            </a>
+                        </div>
+                    </div>
+                    <div>
+                        <span
+                            >✔️ | This music is free to use in your livestreams
+                            & videos</span
+                        >
+                        <a
+                            href="https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbkhzZ2djTlk2N3BrS2VTT1liUlVWVFBUWmtEZ3xBQ3Jtc0ttUHVMblFqNGJGSTNjMFZRUzZyT043dEotb0lOVTVHa1d4R2pNWlg2VW1aVDF1LXhoZWlHY1lEVG1GejdTejVPNEVXZk1hZFBOcGFxMElCX0c3Q1dhNzZuMG9rajdzTVFaSlFFbTNUdkhmdVhIdlJoWQ&q=https%3A%2F%2Fbit.ly%2Flofigirl-usethemusic"
+                            target="_blank"
+                        >
+                            https://bit.ly/lofigirl-usethemusic
+                        </a>
+                    </div>
+                    <div>
+                        <span
+                            >🎼 | Listen on Spotify, Apple music and more
+                            →</span
+                        >
+                        <a
+                            href="https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqblMzQXhMcHpuMUlLTVpENFhNRDNZY0stMlZiUXxBQ3Jtc0ttZnlyVnhURi1oSkJXTVpXMHktYzdDX2JVSGE4Y3d4U01EeFJ1SjNPN3hPSWxvdV9uZ2dUUW8wUEFLbXU4M1pfeUdSMW9TUHA5bHlFbmpYUzhpN2NDRno2Z3NYWWRVTWdMN0JzOERleDVtaE4ybFhtVQ&q=https%3A%2F%2Fbit.ly%2FIofigirl-shop"
+                            target="_blank"
+                        >
+                            https://bit.ly/lofigirl-playlists
+                        </a>
+                    </div>
+                    <button id="show-more">Show More</button>
+                </section>
+            </div>
+            <div class="sidebar">
+                <section class="chat">
+                    <button>SHOW CHAT</button>
+                </section>
+                <section class="suggested-section">
+                    <p id="up-next">Up Next</p>
+                    <br />
+                    <div class="suggested-videos">
+                        <img
+                            class="thumbnail"
+                            src="images/video_thumbnails/lofi_cozy_winter.webp"
+                            alt="Lofi girl"
+                        />
+                        <div>
+                            <h6>Cozy Winter ☕ - [lofi hip hop/study beats]</h6>
+                            <p>Lofi Girl</p>
+                            <p>11M views • 11 months ago</p>
+                        </div>
+                    </div>
+                    <div class="suggested-videos">
+                        <img
+                            class="thumbnail"
+                            src="images/video_thumbnails/lofi_sleep_chill.webp"
+                            alt="Lofi girl"
+                        />
+                        <div>
+                            <h6>
+                                lofi hip hop radio - beats to sleep/chill to
+                            </h6>
+                            <p>Lofi Girl</p>
+                            <p>5.5k watching</p>
+                            <p class="live-now">LIVE NOW</p>
+                        </div>
+                    </div>
+                    <div class="suggested-videos">
+                        <img
+                            class="thumbnail"
+                            src="images/video_thumbnails/chill_hop_radio.webp"
+                            alt="Raccoon out for a chill walk"
+                        />
+                        <div>
+                            <h6>
+                                Chillhop Radio - jazzy & lofi hip hop beats 🐾
+                                by Chillhop Music
+                            </h6>
+                            <p>Chillhop Music</p>
+                            <p>2.1k watching</p>
+                            <p class="live-now">LIVE NOW</p>
+                        </div>
+                    </div>
+                    <div class="suggested-videos">
+                        <img
+                            class="thumbnail"
+                            src="images/video_thumbnails/chilli_records.webp"
+                            alt="Bart Simpson staring at the night sky"
+                        />
+                        <div>
+                            <h6>
+                                Calm Your Stress - Lofi hip hop mix ~ Stress
+                                Relief
+                            </h6>
+                            <p>Chilli Records</p>
+                            <p>237k views • 1 month ago</p>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="suggested-videos">
+                        <img
+                            class="thumbnail"
+                            src="images/video_thumbnails/halidon_music.webp"
+                            alt="Mozart"
+                        />
+                        <div>
+                            <h6>6 HOURS MOZART FOR STUDYING</h6>
+                            <p>HALIDONMUSIC</p>
+                            <p>21M views • 3 years ago</p>
+                        </div>
+                    </div>
+                    <div class="suggested-videos">
+                        <img
+                            class="thumbnail"
+                            src="images/video_thumbnails/relax_cafe_music.webp"
+                            alt="A cup of cofee and cookies"
+                        />
+                        <div>
+                            <h6>Happy August Coffee Jazz</h6>
+                            <p>Relax Cafe Music</p>
+                            <p>233k views • 1 year ago</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </body>
+</html>
